@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Web Forms</title>
+</head>
+<body>
+  <h2>The form attribute</h2>
+  <form action="#" id="form1">
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"> <br> <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <p>The "Last name" field below is outside the form element, but still part of the form.</p>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname" form="form1">
+</body>
+</html>
+
